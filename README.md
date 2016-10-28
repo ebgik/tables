@@ -6,4 +6,6 @@
 
 Пример использования:
 
+<code>
 $('.table').editTable();
+</code>
