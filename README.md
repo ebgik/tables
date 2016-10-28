@@ -7,5 +7,8 @@
 Пример использования:
 
 <code>
+
+&ltscript&gt
 $('.table').editTable();
+&lt/script&gt
 </code>
