@@ -7,8 +7,7 @@
 Пример использования:
 
 <code>
-
-&ltscript&gt
+&lt;script&gt;
 $('.table').editTable();
-&lt/script&gt
+&lt;/script&gt;
 </code>
