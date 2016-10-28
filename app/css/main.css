@@ -1,0 +1,28 @@
+.tableEdit tbody tr:hover {
+  background: #ccc;
+  cursor: pointer; }
+
+.tableEdit tbody tr td {
+  position: relative;
+  width: 200px; }
+  .tableEdit tbody tr td button {
+    position: absolute;
+    display: none;
+    top: 6px;
+    right: 10px;
+    margin: auto;
+    height: 24px; }
+  .tableEdit tbody tr td textarea {
+    max-width: 90%; }
+  .tableEdit tbody tr td:hover button {
+    display: inline-block; }
+
+.tableEdit tbody tr td:last-child {
+  width: 100px;
+  padding: 0;
+  text-align: center; }
+  .tableEdit tbody tr td:last-child button {
+    position: relative; }
+
+.tableEdit tbody tr:hover td:last-child button {
+  display: inline-block; }

@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dmitry Pankratov <spawn9106@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/libs",
+    "test",
+    "tests"
+  ]
+}

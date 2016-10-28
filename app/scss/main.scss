@@ -1,0 +1,56 @@
+.tableEdit
+{
+  tbody
+  {
+    tr
+    {
+      &:hover
+      {
+        background:#ccc;
+        cursor:pointer;
+      }
+      td
+      {
+        position:relative;
+        width:200px;
+        button
+        {
+          position:absolute;
+          display:none;
+          top:6px;
+          right:10px;
+          margin:auto;
+          height:24px;
+        }
+        textarea
+        {
+          max-width:90%;
+        }
+        &:hover
+        {
+          button
+          {
+            display:inline-block;
+          }
+        }
+      }
+      td:last-child
+      {
+        width:100px;
+        padding:0;
+        text-align:center;
+        button
+        {
+          position:relative;
+        }
+      }
+      &:hover
+      {
+        td:last-child button
+        {
+          display:inline-block;
+        }
+      }
+    }
+  }
+}
