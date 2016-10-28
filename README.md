@@ -7,10 +7,13 @@
 Пример использования:
 
 <code>
-&lt;table&gt;<br>
+&lt;table&gt;
 
-&lt;/table&gt;<br>
-&lt;script&gt;<br>
-    $('.table').editTable();<br>
+&lt;/table&gt;
+
+&lt;script&gt;
+
+    $('.table').editTable()
+    
 &lt;/script&gt;
 </code>
