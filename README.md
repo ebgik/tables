@@ -9,3 +9,8 @@
 <code>
 $('.table').editTable();
 </code>
+
+
+Демо:
+
+http://tables.pandn.xyz/
